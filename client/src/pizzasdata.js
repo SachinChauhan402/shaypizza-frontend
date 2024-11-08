@@ -1,6 +1,6 @@
 const pizzas = [
   {
-    name: "PEPPER BARBECUE CHICKEN",
+    name: "PEPPER CHICKEN",
     varients: ["small", "medium", "large"],
     prices: [
       {

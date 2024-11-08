@@ -26,7 +26,7 @@ export const Homescreen = () => {
         ) : (
           pizzas.map((pizza) => {
             return (
-              <div className="col-md-3">
+              <div className="col-md-4">
                 <div>
                   <Pizza pizza={pizza} />
                 </div>

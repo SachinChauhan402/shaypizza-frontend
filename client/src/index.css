@@ -26,6 +26,7 @@ h1 {
 .btn {
   background-color: red !important;
   color: white !important;
+  
 }
 
 select {
@@ -36,3 +37,5 @@ select {
 input {
   margin-top: 10px !important;
 }
+
+

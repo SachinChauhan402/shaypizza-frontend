@@ -19,8 +19,8 @@ export const Pizza = ({ pizza }) => {
 
   return (
     <div
-      style={{ margin: "50px" }}
-      className="shadow-lg p-3 mb-5 bg-white rounded"
+      // style={{ margin: "50px" }}
+      className="shadow-lg p-3 m-5 bg-white"
     >
       <div onClick={handleShow}>
         <h1>{pizza.name}</h1>
@@ -66,8 +66,8 @@ export const Pizza = ({ pizza }) => {
             Price: {pizza.prices[0][varient] * quantity} Rs/-
           </h1>
         </div>
-        <div className="m-1 w-100">
-          <button className="btn" onClick={addtocart}>
+        <div className="m-1 w-100 md:w-1/3">
+          <button className="btn px-4 py-2 text-sm sm:px-6 sm:py-3 sm:text-basebtn" onClick={addtocart}>
             ADD TO CART
           </button>
         </div>
